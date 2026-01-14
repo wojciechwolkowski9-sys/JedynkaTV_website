@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+img.logo {
+    width: 350px;
+}
+
+h1 {
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    margin-bottom: 15px;
+
+    padding: 10px 15px;
+    border: 2px solid black;
+    background: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    background: #f0f0f0;
+}
+
+.icon {
+    font-size: 20px;
+}
